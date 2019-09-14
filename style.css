@@ -1,0 +1,15 @@
+body {
+    align-self: flex-end;
+    width: "70%";
+    font-family: "Times New Roman";
+    color: darkblue;
+    background: #4aaaa5;
+    border-color: #dddddd
+}
+
+header {
+    background-color: #ffffff;
+    font: #7777777;
+    border-color: #cccccc;
+    width: "30%";
+}
