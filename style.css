@@ -3,13 +3,20 @@ body {
     width: "70%";
     font-family: "Times New Roman";
     color: darkblue;
-    background: #4aaaa5;
-    border-color: #dddddd
+    border-color: #dddddd;
+    background-color: lightgray;
+}
+
+.logo {
+    size: 40px;
 }
 
 header {
-    background-color: #ffffff;
-    font: #7777777;
+    float: right;
+    background-color: #4aaaa5;
+    color: #777777;
     border-color: #cccccc;
-    width: "30%";
+    width: "50%";
+    position: sticky;
+    padding: 20 px;
 }
