@@ -1,0 +1,30 @@
+#logo {
+    size: 40px;
+    background-color: rgb(131, 0, 26);
+    text-align: left;
+    padding: 20px;
+    color: #ffffff;
+}
+
+.main {
+    background-color: whitesmoke;
+    width: 80%;
+    padding: 20px;
+    margin: 20px 20px 20px 50px;
+    overflow: auto;
+}
+
+.box {
+    height: 250px;
+    width: 250px;
+    background-color: black;
+    margin: 20px;
+    float: left;
+}
+
+#headshot {
+    float: left;
+    margin: 15px;
+    overflow: auto;
+    border: 5px solid rgb(131, 0, 26);
+}

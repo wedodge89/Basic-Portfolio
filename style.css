@@ -1,30 +1,37 @@
-body {
-    float: left;
-    width: "70%";
-    font-family: "Times New Roman";
-    color: darkblue;
-    border-color: #dddddd;
-    background-color: rgb(175, 174, 174);
+h1 {
+    color: #ffffff;
+    font-size: 36px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-.logo {
-    size: 40px;
-    background-color: #4aaaa5;
-    text-align: left;
-    padding: 20px;
-    color: #ffffff;
+h2 {
+    color: rgb(131, 0, 26);
+    font-size: 24px;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 15 px;
 }
 
 header {
     margin: 0;
-    color: #777777;
-    border-color: #cccccc;
+    color: #FFFFFF;
     width: "100%";
-    position: absolute;
+    position: fixed;
+    right: 0;
     top: 0;
     padding: 20 px;
     text-align: right;
     background-color: whitesmoke; 
+    float: left;
+}
+
+body {
+    float: left;
+    width: "70%";
+    font-family: "Times New Roman";
+    color: black;
+    font-size: 14px;
+    border-color: #dddddd;
+    background-color: rgb(175, 174, 174);
 }
 
 footer {
@@ -33,34 +40,9 @@ footer {
     margin: 0px;
     background-color: rgb(53, 53, 53);
     text-align: center;
-    border: 10px solid #4aaaa5;
+    border: 10px solid rgb(131, 0, 26);
     border-right-style: none;
     border-bottom-style: none;
     border-left-style: none;
     width: 100%;
-}
-
-h2 {
-    color: #4aaaa5;
-    margin: 15 px;
-}
-
-.main {
-    background-color: whitesmoke;
-    width: 80%;
-    padding: 20px;
-    margin: 20px 20px 20px 50px;
-    overflow: auto;
-}
-
-#headshot {
-    float: left;
-    margin: 15px;
-    overflow: auto;
-}
-
-.box {
-    height: 250px;
-    width: 250px;
-    background-color: black;
 }
