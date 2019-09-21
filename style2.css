@@ -24,6 +24,15 @@
     width: 250px;
 }
 
+.form {
+    width: 275px;
+}
+
+.form2 {
+    width: 275px;
+    height: 125px;
+}
+
 #headshot {
     float: left;
     margin: 15px;

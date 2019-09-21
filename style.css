@@ -21,6 +21,7 @@ header {
     padding: 20 px;
     background-color: whitesmoke; 
     float: left;
+    z-index: 1;
 }
 
 nav {
@@ -30,6 +31,7 @@ nav {
     text-align: right;
     background-color: white;
     padding: 10px;
+    z-index: 1;
 }
 
 body {
@@ -51,6 +53,7 @@ main {
     overflow: auto;
     font-size: 16px;
     line-height: 24px;
+    z-index: 1;
 }
 
 p {
