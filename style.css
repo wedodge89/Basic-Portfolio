@@ -12,26 +12,49 @@ h2 {
 }
 
 header {
-    margin: 0;
+    margin: 0px 0px 35px 0px;
     color: #FFFFFF;
     width: "100%";
     position: fixed;
-    right: 0;
+    left:0;
     top: 0;
     padding: 20 px;
-    text-align: right;
     background-color: whitesmoke; 
     float: left;
 }
 
+nav {
+    float: right;
+    font-size: 18px;
+    color: gray;
+    text-align: right;
+    background-color: white;
+    padding: 10px;
+}
+
 body {
     float: left;
-    width: "70%";
     font-family: "Times New Roman";
     color: black;
     font-size: 14px;
     border-color: #dddddd;
     background-color: rgb(175, 174, 174);
+}
+
+main {
+    background-color: whitesmoke;
+    border: 10px solid black;
+    position: relative;
+    width: 75%;
+    padding: 20px;
+    margin: 100px 20px 20px 50px;
+    overflow: auto;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+p {
+    padding-bottom: 15px;
 }
 
 footer {
@@ -40,9 +63,7 @@ footer {
     margin: 0px;
     background-color: rgb(53, 53, 53);
     text-align: center;
-    border: 10px solid rgb(131, 0, 26);
-    border-right-style: none;
-    border-bottom-style: none;
-    border-left-style: none;
+    border-top: 10px solid rgb(131, 0, 26);
     width: 100%;
+    float: none;
 }
